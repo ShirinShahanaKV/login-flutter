@@ -32,7 +32,16 @@ class _SplashScreenState extends State<SplashScreen> {
               Colors.orange[700]!,
               Colors.orange[400]!
             ])),
+     child:Center(
+       child:  CircleAvatar(
+         child: ClipOval(
+           child: Image.asset("assets/logo1.png"),
+         ),
+         backgroundColor: Colors.transparent,
+         radius: 100,
+       )
 
+     )
     );
   }
 }
