@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 2),
+    Timer(Duration(seconds: 1),
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
                 (context) => MyHomePage(title: '',)
@@ -33,7 +33,6 @@ class _SplashScreenState extends State<SplashScreen> {
               Colors.orange[400]!
             ])),
 
-       // child:FlutterLogo(size:MediaQuery.of(context).size.height)
     );
   }
 }
